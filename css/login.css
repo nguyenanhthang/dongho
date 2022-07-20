@@ -1,0 +1,132 @@
+/* form */
+
+.auth-forn-login {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.auth-forn-login__container {
+    padding: 0 32px;
+}
+
+.auth-forn-login__header {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth-forn-login__headeding {
+    font-size: 2.2em;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.auth-forn-login__switch-btn {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.auth-forn-login__input {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    padding: 0 16px;
+    font-size: 1.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    outline: none;
+}
+
+
+/* tạo lớp giả viền border */
+
+.auth-forn-login__input:focus {
+    border-color: #f53e2d;
+}
+
+.auth-forn-login__aside {
+    margin: 40px 0;
+}
+
+.auth-forn-login__decriptions {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 14px;
+    margin-bottom: 80px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.auth-forn-login__control {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-forn-login__control--back {
+    margin-right: 8px;
+}
+
+.auth-forn-login__socicals {
+    margin: 0;
+    background-color: #c0c0c0;
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.auth-forn-login__socicals-icon {
+    font-size: 1.6rem;
+}
+
+a.auth-forn-login__socicals--facebook {
+    color: var(--white-color);
+    background-color: #3A5A98;
+}
+
+.auth-forn-login__socicals-icon,
+.auth-forn-login__socicals--facebook {
+    color: var(--white-color);
+}
+
+.auth-forn-login__socicals-title {
+    margin: 0 24px;
+}
+
+a.auth-forn-login__socicals--google {
+    background-color: #3A5A98;
+    color: var(--white-color);
+}
+
+.auth-forn-login__helps {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-forn-login__help-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.auth-forn-login__separate {
+    display: flex;
+    border-left: 1px solid #eaeaea;
+    margin: -4px 16px 2px 16px;
+    height: 22px;
+}
+
+.auth-forn-login__helps-forgot {
+    color: var(--primary-color);
+}
+
+.auth-forn-login__helps-form__help {
+    color: #c0c0c0;
+}
